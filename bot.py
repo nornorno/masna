@@ -15,7 +15,7 @@ bot = Client(
 async def start_helalbot():
     print("تم تشغيل الصانع بنجاح..💗")
     await bot.start()
-    hh = "MohamedHelal_l"#يوزر المطور المصنع
+    hh = "nor_o"#يوزر المطور المصنع
     try:
         await bot.send_message(hh, "**تم تشغيل الصانع بنجاح ...🥀**")
     except:
